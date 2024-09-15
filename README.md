@@ -45,7 +45,8 @@ The primary goal here is to conduct a descriptive analysis of the yearly trends 
 ### Step 4: Dataset Preparation
 * The 'Preparation' portion of the DAP process involves using the 'Microsoft Excel' service.
 * This is because we cannot guarantee that the datasets we obtained are formatted in accordance with our requirements.
-* To guarantee data is presentable, we need to take certain activities. Once the datasets are prepared, we can ensure that they can be used to improve the design and efficiency of DAP.
+* To guarantee data is presentable, we need to take certain activities.
+* Once the datasets are prepared, we can ensure that they can be used to improve the design and efficiency of DAP.
 ### Step 5: Data Ingestion & Step 6: Data Storage
 * Here we create appropriate Bucket structure mentioned in Step 3.
 * We can then move to uploading the dataset files into AWS environment of S3 buckets.
