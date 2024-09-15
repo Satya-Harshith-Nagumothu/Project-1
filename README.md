@@ -29,15 +29,35 @@ The primary goal here is to conduct a descriptive analysis of the yearly trends 
 ### Step 1 - Data Analytical Question Formulation
 * Data or Datasets are very important when we are going to analyse something. Similarly for me to implement DAP I need some datasets and metrics to calculate.
 * As explained above I have the Issued building permits Dataset, using this am going to design my DAP. The first step is to carefully select all the relevant metrics.
-* Below displayed are a few sample metrics I selected:
-* ![satya](https://github.com/user-attachments/assets/f4e65b96-e2bd-4d63-b67b-cee573d7471c)
+* Below displayed are a few sample metrics I selected: <br>
+![satya](https://github.com/user-attachments/assets/f4e65b96-e2bd-4d63-b67b-cee573d7471c)
 *  From this list I am going to select the descriptive metric “What is the percentage of Permits issued for ech type of work?” analysis.
 *  By doing this we can understand the total number of permits issued for each category of work.
 ### Step 2 - Data Discovery
-* This is the dataset I gathered pertaining to pet-related questions. The breed, color, name, gender, date of inquiry, status, and other details about pets that have been reported missing or found are all included in this dataset.
+* This is the dataset I gathered related to etric i selected.
 * I also divided this into two, just like I explained int he Datasets section prior.
-  * [2024_animal_control_Found_inventory.xlsx](https://github.com/user-attachments/files/16974871/2024_animal_control_Found_inventory.xlsx) contains the information of this match found dataset.
-  * [2024_animal_control_inventory_lost_and_found.xlsx](https://github.com/user-attachments/files/16974850/2024_animal_control_inventory_lost_and_found.xlsx) contains the information of this lost and found inventory dataset.
+  * [cummulative_issued-building-permits 2024.xlsx](https://github.com/user-attachments/files/17004724/cummulative_issued-building-permits.2024.xlsx) contains the information of all building permits issued.
+  * [Approved-issued-building-permits-2024.xlsx](https://github.com/user-attachments/files/17004726/Approved-issued-building-permits-2024.xlsx) contains the information of approved building permits issued.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Step 3 - Data Storage Design
 * This phase is the backbone of the data analytic platform, where data is stored securely in the storage services provided by S3, redshift, Dynamo DB, etc, depending on the data structure. * Amazon S3 is the ideal storage service for storing large volumes of data by providing availability, durability, and scalability, and all these features make it a preferred choice.
 * I have utilized S3 Simple storage services for storing our clean and robust data for analysis purposes, as S3 offers sufficient scalability and availability and is cost-effective.
