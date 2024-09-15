@@ -8,7 +8,7 @@ Instructor: Mahmood Mortazavi Dehkordi<br>
 
 ___
 
-# Project Description: Descriptive Analysis of Lost and Found Animal Records
+# Project Description: Descriptive Analysis of Building Permit Records
 In this assignment I show how i designed a Data Analytic Platform (DAP) and implemented it for the City of Vancouver project, i will also explain the datasets used and the various derivations and DAP design using the datasets I selected. I got my datasets from website [City of Vancouver Open Data Portal](https://opendata.vancouver.ca/explore/dataset/issued-building-permits/information/) related to the Vancouver City operations.
 
 ## Project Title: Understanding Building Permits Issued Percentages
