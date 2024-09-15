@@ -82,51 +82,14 @@ The primary goal here is to conduct a descriptive analysis of the yearly trends 
 ![figure 32](https://github.com/user-attachments/assets/ad71ae7a-e4d0-4108-8123-636ca41e9102)
 * The above image display the details of “Table” for my dataset using ‘AWS-Athena’.
 * Once the results are generated based on our query we can use the resultant data by downloading it as a **".csv"** file.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Step 12: Data Visualization 
 * In this step I used "Microsoft Excel" to create reports of the **".csv"** file downloaded from AWS-Athena in "Step 11".
 * My resultant reports were generated as below:<br>
-![figure 39](https://github.com/user-attachments/assets/2af9f061-94f8-4755-9fed-6137e6bebbf3)
+![figure 36](https://github.com/user-attachments/assets/338a4dff-cb64-44a5-8c4b-6ea6e14cc621)
 * The above image display the details of AWS-Athena based report using ‘Excel’.
 ### Step 13: Data Publishing
 * This is the crucial step for populating the needed data for both internal and external use.
-* We can use the ***Web servers*** and ***General Servers*** for publishing the results and making them available.<br>
-![figure 42](https://github.com/user-attachments/assets/0e4638ce-b264-4795-8879-0624b7bc8190)
-* The above image display the details of “**IIS Role Installation**” of “**Web Server 1**”.<br>
-![figure 43](https://github.com/user-attachments/assets/c2d42233-26cc-47d7-a9e2-f9ca0f108548)
-* The above image display the details of “**Reports Data**” of “**Web Server 1**”.<br>
-![figure 46](https://github.com/user-attachments/assets/8b1b89f3-b298-4349-9052-dabef4e7ec04)
-* The above image display the details of “**Reports Data**” of “**General Server 1**”.
-## Insights and Findings:
-* The DAP designed can be used for other details as well.
-* Below are a few finding we can use from the dataset I selected in the DAP process.
-  * **Yearly Trends:** The analysis highlighted peaks in the number of lost animals around specific months or events.
-  * **Matched vs. Lost Percentage:** A significant portion of lost animals (X%) were successfully matched, but Y% remained lost by the end of the year.
-  * **Breed and Color Trends:** Certain breeds and colors were more commonly found or lost, which could assist in future identification and classification efforts.
-  * **Seasonality:** Increased lost animal cases were observed during certain times of the year (e.g., holidays or weather-related events).
-## Recommendations:
-* Based on the analysis, below are a few recommendations:
-  * **Improved Public Awareness Campaigns:** Focus on specific times of the year when lost animal cases are higher, encouraging pet owners to take preventive measures.
-  * **Enhanced Reporting and Matching Process:** Implement a streamlined process to increase the percentage of matched animals, including better use of online reporting systems and social media for quicker identification.
-  * **Resource Allocation:** Adjust staffing and resources during peak times when lost animals are more common to improve response time and matching effectiveness.
+* We can use the ***Web servers*** and ***General Servers*** for publishing the results and making them available.
 ## Tools and Technologies:
 * The list of Tools or technologies used are:
   * Microsoft Excel
@@ -138,9 +101,8 @@ The primary goal here is to conduct a descriptive analysis of the yearly trends 
   * Microsoft Web Server IIS Role Installation
 ### Deliverables:
 * A few crucial deliverables are:
-  * **Data Analytic Platform:** Implemented on AWS, integrating data from the City of Vancouver's lost and found animal records.
+  * **Data Analytic Platform:** Implemented on AWS, integrating data from the City of Vancouver's building permit records.
   * **Visualizations & Reports:** Generated reports and visualizations in Excel, illustrating trends, match rates, and other key findings.
   * **Data Storage & Pipeline:** Utilized AWS S3 for storage, AWS Glue for ETL processes, and AWS Athena for querying.
   * **Documentation:** Detailed steps and methodology used in the DAP design, including data preparation, cleaning, and monitoring.
   * **Recommendations:** Suggestions for improving public awareness, reporting processes, and resource allocation based on the analysis. <br>
-#### This AWS Assignment highlights my whole process of designing a DAP for City of Vancouver.
