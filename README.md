@@ -1,10 +1,9 @@
-<h1 align="center">City of Vancouver Project Part 1 Assignemnt</h1>
+<h1 align="center">Project 1 for AWS Assignemnt</h1>
 <p align="center">
-Peddaballe Vinodh Kumar Reddy [2212316] <br>
+Satya Harshith Nagumothu [2221973] <br>
 University Canada West<br>
 BUSI 653, Section 04<br>
 Instructor: Mahmood Mortazavi Dehkordi<br>
-Due Date: 27th August 2024<br>
 </p>
 
 ___
