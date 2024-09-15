@@ -38,37 +38,38 @@ The primary goal here is to conduct a descriptive analysis of the yearly trends 
 * I also divided this into two, just like I explained int he Datasets section prior.
   * [cummulative_issued-building-permits 2024.xlsx](https://github.com/user-attachments/files/17004724/cummulative_issued-building-permits.2024.xlsx) contains the information of all building permits issued.
   * [Approved-issued-building-permits-2024.xlsx](https://github.com/user-attachments/files/17004726/Approved-issued-building-permits-2024.xlsx) contains the information of approved building permits issued.
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Step 3 - Data Storage Design
-* This phase is the backbone of the data analytic platform, where data is stored securely in the storage services provided by S3, redshift, Dynamo DB, etc, depending on the data structure. * Amazon S3 is the ideal storage service for storing large volumes of data by providing availability, durability, and scalability, and all these features make it a preferred choice.
+ ### Step 3 - Data Storage Design
+* This phase is important for the data analytic platform, where data is stored securely in the storage services provided by S3, redshift, Dynamo DB, etc, depending on the data structure.
+* Amazon S3 is the ideal storage service for storing large volumes of data by providing availability, durability, and scalability, and all these features make it a preferred choice.
 * I have utilized S3 Simple storage services for storing our clean and robust data for analysis purposes, as S3 offers sufficient scalability and availability and is cost-effective.
-* Below image displays my data storage design<br>
-![step003](https://github.com/user-attachments/assets/c5b75964-cc2f-48ca-920c-3c60ea400ce0)
 ### Step 4: Dataset Preparation
-* The next step in the DAP process, that is the ‘Preparation’ stage.
-* For this we are going to use ‘Microsoft Excel’ service.
-* This is because we can not be sure the datasets we took is structured as per out need.
-* To ensure this we need to do set of actions to ensure the data is in presentable format.
-* Once the datasets are prepared then we can ensure that we can use them to further design and efficient DAP.
+* The 'Preparation' portion of the DAP process involves using the 'Microsoft Excel' service.
+* This is because we cannot guarantee that the datasets we obtained are formatted in accordance with our requirements.
+* To guarantee data is presentable, we need to take certain activities. Once the datasets are prepared, we can ensure that they can be used to improve the design and efficiency of DAP.
+### Step 5: Data Ingestion & Step 6: Data Storage
+* Here we create appropriate Bucket structure mentioned in Step 3.
+* We can then move to uploading the dataset files into AWS environment of S3 buckets.
+* This will allow ease of access to data sets in AWS environment.<br>
+![figure 08](https://github.com/user-attachments/assets/076345fb-6dd9-4d26-a9c0-5fe32b53e3d5)
+*The above image display “storage” for “Dataset” using ‘AWS-S3’<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Step 5: Data Ingestion & Step 6: Data Storage
 * These are the steps where we create appropriate Bucket structure mentioned in Step 3.
 * Once the buckets & folders are created we can then move to uploading the dataset files into AWS environment of S3 buckets.
