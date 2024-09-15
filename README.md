@@ -60,50 +60,47 @@ The primary goal here is to conduct a descriptive analysis of the yearly trends 
 * This will provide a visual representation of how data flows through the ETL pipeline to get the desired results.<br>
 ![appx001](https://github.com/user-attachments/assets/63eaf976-1ccd-45fd-afcc-ef4accc1652c)
 * The above image display the details of “Issued Buildign Permits” ETL process.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Steps 8 & 9: Data Cleaning & Data Structuring
-* Data cleaning involved converting the columns into desired schema format and ensuring consistency between the two datasets.
-* We also need to ensure the Missing or incomplete records by reviewing the datasets for accuracy of analysis.
-* For this we are going to use the **"AWS DataBrew"** service.
-* AWS-DataBrew helps in formatting, handling missing values, schema changes and other data cleaning and structuring tasks.<br>
- ![image](https://github.com/user-attachments/assets/95ecfd16-db46-4427-893d-bb64ed76507a)
-* The above image display the details of “Schema Information” for “**Found Inventory Dataset**” using ‘AWS-DataBrew’.<br>
-![image](https://github.com/user-attachments/assets/09b68971-8a03-45b0-80a1-f5ce49e5812f)
-Note: The above image display the details of “Schema Information” for “**Matched Inquiries Dataset**” using ‘AWS-DataBrew’.
+* Data cleaning included converting columns to the proper schema format and maintaining consistency amongst datasets.
+* We also need to confirm that there are no missing or incomplete records by examining the datasets for analytical accuracy.
+* For this, we will use the **"AWS DataBrew"** service. ,br.
+![figure 22](https://github.com/user-attachments/assets/10cf90b5-ec4f-4027-afbf-1fabf3efeb48)
+* The above image display the details of “Schema Information” for “**cummulative_issued-building-permits-2024**” using ‘AWS-DataBrew’.
 ### Step 10: Data Pipeline Implementation 
-* We can begin putting the ETL pipelines created in "Step 7" into practice after our datasets have been cleansed and organized.
-* The "**AWS Glue**" service will be used for the ETL implementation.
-* With the help of this service, we may transform operational data sources' structured data into the appropriate analytical data source for our purposes.
-* We may provide the schema we want for our datasets, create an ETL job to carry out the entire design, and create an ETL pipeline diagram utilizing the components that "AWS Glue" offers.
-* If necessary, we may even guarantee that the result of the ETL operation is stored in our "AWS-S3."<br>
-![figure 31](https://github.com/user-attachments/assets/a7283be8-16ce-48dd-bf2d-645f797a5b6b)
+* Once our datasets have been cleansed and organised, we can start implementing the ETL pipelines created in "Step 7".
+* The "**AWS Glue**" service will be utilised to implement the ETL.
+* This solution converts structured data from operational sources into analytical data for specific uses.
+* We can develop a schema for our datasets, an ETL job to execute the design, and an ETL pipeline diagram using "AWS Glue" components.
+* If necessary, we may even guarantee that the outcome of the ETL operation is saved in our "AWS-S3."<br>
+![figure 28](https://github.com/user-attachments/assets/69993e09-479d-4922-8e0f-545f5572b0ec)
 * The above image display the details of “ETL information” for my dataset using ‘AWS-Glue’.
 ### Step 11: Data Analysis 
-* The analytical datasets for the operational datasets we utilized are now available.
-* The structural datasets produced by the ETL pipeline are now available for use in the analysis.
-* On the basis of the ETL outputs, we can even build a query service using the "**AWS-Athena**" service.
-* We may build tables with this service, and then use straightforward SQL queries to get the necessary data from the tables.<br>
-![figure 35](https://github.com/user-attachments/assets/96511e74-41e7-4947-bfeb-9877c6436ab5)
+* Analytical datasets for our operational datasets are now available.
+* The ETL pipeline's structural datasets are now available for study.
+* Using the ETL results, we can create a query service with the "**AWS-Athena**" service.
+* This service allows us to create tables and then retrieve data from them using simple SQL queries.<br>
+![figure 32](https://github.com/user-attachments/assets/ad71ae7a-e4d0-4108-8123-636ca41e9102)
 * The above image display the details of “Table” for my dataset using ‘AWS-Athena’.
 * Once the results are generated based on our query we can use the resultant data by downloading it as a **".csv"** file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Step 12: Data Visualization 
 * In this step I used "Microsoft Excel" to create reports of the **".csv"** file downloaded from AWS-Athena in "Step 11".
 * My resultant reports were generated as below:<br>
