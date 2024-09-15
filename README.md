@@ -9,14 +9,14 @@ Instructor: Mahmood Mortazavi Dehkordi<br>
 ___
 
 # Project Description: Descriptive Analysis of Lost and Found Animal Records
-In this assignment I show how i designed a Data Analytic Platform (DAP) and implemented it for the City of Vancouver project, i will also explain the datasets used and the various derivations and DAP design using the datasets I selected. I got my datasets from website [City of Vancouver Open Data Portal]((https://opendata.vancouver.ca/explore/dataset/issued-building-permits/information/) related to the Vancouver City operations.
+In this assignment I show how i designed a Data Analytic Platform (DAP) and implemented it for the City of Vancouver project, i will also explain the datasets used and the various derivations and DAP design using the datasets I selected. I got my datasets from website [City of Vancouver Open Data Portal](https://opendata.vancouver.ca/explore/dataset/issued-building-permits/information/) related to the Vancouver City operations.
 
-## Project Title: Understanding Yearly Lost and Found Animal Patterns
-The primary need of this project is to conduct a descriptive analysis of the yearly trends in lost and found animals based on the datasets taken from [City of Vancouver Open Data Portal](https://opendata.vancouver.ca/explore/dataset/animal-control-inventory-lost-and-found/export/?disjunctive.breed&disjunctive.color&sort=date&refine.date=2023). The goal is to identify the percentage of animals matched (found) and lost over time, which can help inform operational strategies for animal control services, improve response times, and increase the likelihood of reuniting lost animals with their owners.
+## Project Title: Understanding Building Permits Issued Percentages
+The primary goal here is to conduct a descriptive analysis of the yearly trends in Building permits issued based on the datasets taken from [City of Vancouver Open Data Portal](https://opendata.vancouver.ca/explore/dataset/issued-building-permits/information/). I am planning to find the percentages of permits issued for each category or type over time, which can help inform operational strategies for see the probability of getting a permit.
 ## Project Objective:
-* Pets have become a major part of our lives.
-* I decided this will be my dataset to get information related to lost and found cases related to pets in city of Vancouver.
-* For the DAP design there are close to 13 steps. Am going to define and describe all these steps below.
+* Design a dAP for Building Permits Issed using Building PErmits Dataset.
+* I decided this will be my dataset to get information related to percentages of permits issued for each category or type over time in city of Vancouver.
+* The 11 steps of information is shown below: <br>
 ## Datasets
 * There are two datasets wi=hich i will be using here.
 * The first dataset is **"Found Inventory Dataset"**, it contains information on animals found, with columns such as:
