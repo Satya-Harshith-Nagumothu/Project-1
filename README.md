@@ -14,40 +14,25 @@ In this assignment I show how i designed a Data Analytic Platform (DAP) and impl
 ## Project Title: Understanding Building Permits Issued Percentages
 The primary goal here is to conduct a descriptive analysis of the yearly trends in Building permits issued based on the datasets taken from [City of Vancouver Open Data Portal](https://opendata.vancouver.ca/explore/dataset/issued-building-permits/information/). I am planning to find the percentages of permits issued for each category or type over time, which can help inform operational strategies for see the probability of getting a permit.
 ## Project Objective:
-* Design a dAP for Building Permits Issed using Building PErmits Dataset.
+* Design a dAP for Building Permits Issed using Building Permits Dataset.
 * I decided this will be my dataset to get information related to percentages of permits issued for each category or type over time in city of Vancouver.
 * The 11 steps of information is shown below: <br>
 ## Datasets
-* There are two datasets wi=hich i will be using here.
-* The first dataset is **"Found Inventory Dataset"**, it contains information on animals found, with columns such as:
-  * SNO: Serial Number
-  * Breed: Animal breed
-  * Color: Color description
-  * Date: Date when the animal was found
-  * Name: Name of the animal
-  * Sex: Animal's sex
-  * State: Status (Yes indicating matched or found)
-  * [2024_animal_control_Found_inventory.xlsx](https://github.com/user-attachments/files/16974871/2024_animal_control_Found_inventory.xlsx) contains the information of this match found dataset.
-* The second datset is **"Lost and Found Inventory Dataset"**, it Contains details on lost animals, with similar columns, including:
-  * SNO: Serial Number
-  * Breed: Animal breed
-  * Color: Color description
-  * Date: Date of the record
-  * Name: Name of the animal
-  * Sex: Animal's sex
-  * State: Lost or Found status
-  * [2024_animal_control_inventory_lost_and_found.xlsx](https://github.com/user-attachments/files/16974850/2024_animal_control_inventory_lost_and_found.xlsx) contains the information of this lost and found inventory dataset.
+* There are two datasets which I used are .
+* The first dataset is **"cummulative_issued-building-permits-2024"**, it contains information on all building permits issued:
+  * [cummulative_issued-building-permits 2024.xlsx](https://github.com/user-attachments/files/17004724/cummulative_issued-building-permits.2024.xlsx) contains the information of all building permits issued.
+* The second datset is **"Approved-issued-building-permits-2024"**, it Contains details on approved building permits issued:
+  * [Approved-issued-building-permits-2024.xlsx](https://github.com/user-attachments/files/17004726/Approved-issued-building-permits-2024.xlsx) contains the information of approved building permits issued.
 * Using both these datasets I will be planning my DAP for City of Vancouver.
 ## Methodology:
-* The process of DAP designing and implementation is complex.
-* This involves close to 13 different steps. I will be explaining on these steps in detail below:
+* I will explain the process of designing the DAP below for Buildign Permits of City of vancouver:
 ### Step 1 - Data Analytical Question Formulation
 * Data or Datasets are very important when we are going to analyse something. Similarly for me to implement DAP I need some datasets and metrics to calculate.
-* As explained above I have the Animal Control Inventory Lost & Found dataset, using this am going to design my DAP. The first step is to carefully select all the relevant metrics.
+* As explained above I have the Issued building permits Dataset, using this am going to design my DAP. The first step is to carefully select all the relevant metrics.
 * Below displayed are a few sample metrics I selected:
-![step001](https://github.com/user-attachments/assets/496f5579-6aed-48a2-a71e-5b83cb3c331e)
-*  From this list I am going to select the descriptive metric “What is the match rate of Pet Inquiries?” analysis.
-*  By doing this we can understand the total number of pet inquiries done, the number of match found inquiries, the number of inquiries still pending , and also the percentage of matched inquiries to that of total inquiries.
+* ![satya](https://github.com/user-attachments/assets/f4e65b96-e2bd-4d63-b67b-cee573d7471c)
+*  From this list I am going to select the descriptive metric “What is the percentage of Permits issued for ech type of work?” analysis.
+*  By doing this we can understand the total number of permits issued for each category of work.
 ### Step 2 - Data Discovery
 * This is the dataset I gathered pertaining to pet-related questions. The breed, color, name, gender, date of inquiry, status, and other details about pets that have been reported missing or found are all included in this dataset.
 * I also divided this into two, just like I explained int he Datasets section prior.
