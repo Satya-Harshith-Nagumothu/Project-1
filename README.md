@@ -53,39 +53,32 @@ The primary goal here is to conduct a descriptive analysis of the yearly trends 
 * This will allow ease of access to data sets in AWS environment.<br>
 ![figure 08](https://github.com/user-attachments/assets/076345fb-6dd9-4d26-a9c0-5fe32b53e3d5)
 *The above image display “storage” for “Dataset” using ‘AWS-S3’<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Step 5: Data Ingestion & Step 6: Data Storage
-* These are the steps where we create appropriate Bucket structure mentioned in Step 3.
-* Once the buckets & folders are created we can then move to uploading the dataset files into AWS environment of S3 buckets.
-* This will allow ease of access to data sets in AWS environment.<br>
-![image](https://github.com/user-attachments/assets/4602b53b-ee88-475d-a77f-3e830077962b)
-*The above image display the details of “Storage” & "Ingestion" for “**Pet Inquiries**” of "***Lost and Found Inventory Dataset***"using ‘AWS-S3’<br>
-![image](https://github.com/user-attachments/assets/bc5aa6bf-8f6c-481a-a63e-4c501c3f224f)
-*The above image display the details of “Storage” & "Ingestion" for “**Matched Inquiries**” of "***Found Inventory Dataset***"using ‘AWS-S3’
 ### Step 7: Data Pipeline Design 
-* The datasets we need are now available in the AWS environment.
-* The ETL pipeline design can now be started.
-* We are able to define the precise data flow, starting from the raw datasets' input and ending with the reports or final outcomes.
-* The ETL pipeline implementation's algorithm is the sole thing involved in this stage. This will provide a visual depiction of how data moves through the ETL pipeline to produce the required outputs.<br>
-![appx004](https://github.com/user-attachments/assets/0f36382f-7be8-4005-927a-697802f6ccfd)
-* The above image display the details of “Pets Lost & Found” ETL process.
+* The required datasets are now available on AWS. The ETL pipeline design can now begin.
+* We can precisely define the data flow, from raw dataset entry to reports or ultimate outcomes.
+* This stage focusses solely on the ETL pipeline implementation algorithm.
+* This will provide a visual representation of how data flows through the ETL pipeline to get the desired results.<br>
+![appx001](https://github.com/user-attachments/assets/63eaf976-1ccd-45fd-afcc-ef4accc1652c)
+* The above image display the details of “Issued Buildign Permits” ETL process.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Steps 8 & 9: Data Cleaning & Data Structuring
 * Data cleaning involved converting the columns into desired schema format and ensuring consistency between the two datasets.
 * We also need to ensure the Missing or incomplete records by reviewing the datasets for accuracy of analysis.
